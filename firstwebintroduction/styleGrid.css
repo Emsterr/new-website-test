@@ -1,0 +1,41 @@
+/* Heading */
+h1 {
+    margin-bottom: 0px;
+}
+
+/* Timetable Grid */
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal columns for days */
+    gap: 5px;
+    width: 80%;
+    background-color: #dddddd;
+    padding: 50px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+/* Header Styling */
+.header {
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Subject Styling */
+.subject {
+    background-color: #2196F3;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+
+
